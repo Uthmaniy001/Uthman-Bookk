@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Book</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ------------nav-bar--------------- -->
+    <nav>
+        <div class="nav-left">
+            <a href="index.html">
+            <img src="images/logo2.png" alt="" class="logo">
+            </a>
+
+            <ul>
+                <li><img src="images/notification.png" alt=""></li>
+                <li><img src="images/inbox.png" alt=""></li>
+                <li><img src="images/video.png" alt=""></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png" alt="">
+                <input type="text" placeholder="Search">
+            </div>
+
+            <div class="nav-user-icon online" onclick="settingMenuToggle()">
+                <img src="images/profile-pic.png" alt="">
+            </div>
+        </div>
+
+        <!-- ------Settings Menu-------- -->
+        <div class="settings-menu">
+
+            <dark id="dark-btn">
+                <span></span>
+            </dark>
+
+            <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p>Uthmaniy</p>
+                        <a href="profile.html">See your profile</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="user-profile">
+                    <img src="images/feedback.png" alt="">
+                    <div>
+                        <p>Give Feedback</p>
+                        <a href="#">Help us to improve the new design</a>
+                    </div>
+                </div>
+
+                <hr>
+
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">Help & Support <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display % Accessibility <img src="images/arrow.png" width="10px"></a>
+                </div>
+
+                <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <!-- -------Profile Page-------- -->
+
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-image">
+
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pd-image" >
+                    <div>
+                        <h3 class="uthmaniy">Uthmaniy</h3>
+                        <p>200 Friends - 70 mutual</p>
+                        <img src="images/member-1.png" alt="">
+                        <img src="images/member-2.png" alt="">
+                        <img src="images/member-3.png" alt="">
+                        <img src="images/member-4.png" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right">
+
+                <button type="button"> <img src="images/add-friends.png" alt="">Friends</button>
+                <button type="button"> <img src="images/message.png" alt="">Messages</button> 
+                <br>
+                <a href="#"><img src="images/more.png" alt=""></a>
+            </div>
+        </div>
+
+        <div class="profile-info">
+        <div class="info-col">
+
+
+            <div class="profile-intro">
+                <h3>Intro</h3>
+                <p class="intro-text">Believe in yourself and you can do unbelievable things
+                     <img src="images/feeling.png" alt="">
+                </p>
+                <hr>
+                <ul>
+                    <li> <img src="images/profile-job.png">Student of SYO TECHNOL LTD</li>
+                    <li> <img src="images/profile-study.png">Studied Web Developer</li>
+                    <li> <img src="images/profile-home.png">Live in Ilorin,Kwara State.</li>
+                    <li> <img src="images/profile-location.png">Nigerian</li>
+                </ul>
+               
+            </div>
+
+
+            <div class="profile-intro">
+                <div class="title-box">
+                <h3>photos</h3>
+                <a href="#">All photos</a>   
+             </div>
+                <div class="photo-box">
+                <img src="images/photo1.png">
+                <img src="images/photo2.png">
+                <img src="images/photo3.png">
+                <img src="images/photo4.png">
+                <img src="images/photo5.png">
+                <img src="images/photo6.png">
+            </div>
+            </div>
+
+
+            <div class="profile-intro">
+                <div class="title-box">
+                <h3>Friends</h3>
+                <a href="#">All Friends</a>   
+             </div>
+             <p>120 (10 mutuals)</p>
+                <div class="friends-box">
+                <div><img src="images/member-1.png"><p>Uthmaniy</p></div>
+                <div><img src="images/member-2.png"><p>Raboo M</p></div>
+                <div><img src="images/member-3.png"><p>AliyuZubair</p></div>
+                <div><img src="images/member-4.png"><P>Patrick j</P></div>
+                <div><img src="images/member-5.png"><p>jammofund</p></div>
+                <div><img src="images/member-6.png"><p>GhostMood</p></div>
+                <div><img src="images/member-7.png"><p>SyoTechnol</p></div>
+                <div><img src="images/member-8.png"><p>SaSTechnol</p></div>
+                <div><img src="images/member-9.png"><p>MajTechnol</p></div>
+            </div>
+            </div>
+
+            
+
+              
+
+        </div>
+        <div class="post-col">
+            <div class="write-post-container">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png" alt="">
+                    <div>
+                        <p class="intro-text">Uthmaniy</p>
+                        <small>Public</small>
+                    </div>
+                </div>
+
+                <div class="post-input-continer">
+                    <textarea rows="3" placeholder="What`s on your mind, Uthmaniy"></textarea>
+
+                    <div class="add-post-links">
+                        <a href="#"><img src="images/live-video.png" alt="">Live Video</a>
+                        <a href="#"><img src="images/photo.png" alt="">Photo Video</a>
+                        <a href="#"><img src="images/feeling.png" alt="">Feeling/Activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Uthmaniy</p>
+                            <span>January 27 2026  14:30</span>
+                        </div>
+                    </div>
+
+                    <!-- -----three dot----- -->
+                    <a href="#"><i class="Fas Fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Subscribe <span>@Uthmaniy</span> Facebook page to watch more videos on website Development
+                    and Graphic design <a href="#">#Uthmaniy Technol</a>
+                    <a href="#">#Facebook page</a>
+                </p>
+
+                <img src="images/feed-image-1.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1k</div>
+                        <div><img src="images/comments.png" alt="">200</div>
+                        <div><img src="images/share.png" alt="">14k</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Uthmaniy</p>
+                            <span>January 27 2026  14:30</span>
+                        </div>
+                    </div>
+
+                    <!-- -----three dot----- -->
+                    <a href="#"><i class="Fas Fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    like and share thsi video with friends, tag <span>@Uthmaniy</span>
+                    Facebook page on your post. Ask your doubts in the comment section
+                    <a href="#">#Uthmaniy Technol</a>
+                    <a href="#">#Facebook page</a>
+                </p>
+
+                <img src="images/feed-image-2.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like.png" alt="">3k</div>
+                        <div><img src="images/comments.png" alt="">400</div>
+                        <div><img src="images/share.png" alt="">100k</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Uthmaniy</p>
+                            <span>January 27 2026  14:30</span>
+                        </div>
+                    </div>
+
+                    <!-- -----three dot----- -->
+                    <a href="#"><i class="Fas Fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Subscribe <span>@Uthmaniy</span> Facebook page to watch more videos on website Development
+                    and Graphic design <a href="#">#Uthmaniy Technol</a>
+                    <a href="#">#Facebook page</a>
+                </p>
+
+                <img src="images/feed-image-3.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1k</div>
+                        <div><img src="images/comments.png" alt="">200</div>
+                        <div><img src="images/share.png" alt="">14k</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Uthmaniy</p>
+                            <span>January 27 2026  14:30</span>
+                        </div>
+                    </div>
+
+                    <!-- -----three dot----- -->
+                    <a href="#"><i class="Fas Fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Subscribe <span>@Uthmaniy</span> Facebook page to watch more videos on website Development
+                    and Graphic design <a href="#">#Uthmaniy Technol</a>
+                    <a href="#">#Facebook page</a>
+                </p>
+
+                <img src="images/feed-image-4.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1k</div>
+                        <div><img src="images/comments.png" alt="">200</div>
+                        <div><img src="images/share.png" alt="">14k</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="post-container">
+                <div class="post-row">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.png" alt="">
+                        <div>
+                            <p>Uthmaniy</p>
+                            <span>January 27 2026  14:30</span>
+                        </div>
+                    </div>
+
+                    <!-- -----three dot----- -->
+                    <a href="#"><i class="Fas Fa-ellipsis-v"></i></a>
+                </div>
+
+                <p class="post-text">
+                    Subscribe <span>@Uthmaniy</span> Facebook page to watch more videos on website Development
+                    and Graphic design <a href="#">#Uthmaniy Technol</a>
+                    <a href="#">#Facebook page</a>
+                </p>
+
+                <img src="images/feed-image-5.png" class="post-img">
+
+                <div class="post-row">
+                    <div class="activity-icons">
+                        <div><img src="images/like-blue.png" alt="">1k</div>
+                        <div><img src="images/comments.png" alt="">200</div>
+                        <div><img src="images/share.png" alt="">14k</div>
+                    </div>
+
+                    <div class="post-profile-icons">
+                        <img src="images/profile-pic.png" alt="">
+                        <i class="fas fa-caret-down"></i>
+                    </div>
+                </div>
+            </div>
+
+        </div>    
+
+        </div>
+
+
+
+
+
+
+    
+    <div class="footer">
+        <p>Copyright 2026-@Uthmaniy Technol</p>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
